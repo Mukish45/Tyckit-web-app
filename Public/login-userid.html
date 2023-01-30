@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tyckit | Login
+        </title>
+
+        <style>
+                .button2 {
+                background-color: #6C63B3;
+                border: none;
+                color: white;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+                width: 400px;
+                height: 50px;
+                border-radius: 12px;
+                }
+
+                .button2:hover {
+                    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                }
+
+                ::placeholder{
+                    color: #352C77;
+                    font-size: 20px;
+                    text-align: center;
+                    background-image: "user_id_icon.png";
+                }
+
+                .button2 {
+                background-color: #6C63B3;
+                border: none;
+                color: white;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+                width: 400px;
+                height: 50px;
+                border-radius: 12px;
+                }
+
+                .button2:hover {
+                    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                }
+
+                .box{
+                    height: 50px; 
+                    width: 400px; 
+                    border-radius: 12px; 
+                    background-color: #F1EFFD; 
+                    border: none; 
+                    font-size: 20px; 
+                    text-align: center;
+                }
+        </style>
+
+    </head>
+
+    <body>
+
+        <table align="center">
+            <tr>
+                <td style="padding-top: 100px; padding-left: 80px;"><img src="logo.png" height="100px" width="100px"></td>
+            </tr>
+
+            <tr>
+                <td><p style="font-size: 36px; color: #352C77; padding-left: 50px; font-family: sans-serif; letter-spacing: 0.1in;">TYCKIT</p></td>
+            </tr>
+
+        </table>
+
+        <div align="center">
+            <form action="/login_user" method="POST">
+                <input type="text" class="box" id="input_user" name="input_user" placeholder="Username" required>
+                <br>
+                <br>
+                <input type="password" class="box" id="myInput" name="myInput" placeholder="Password" required>
+                <br>
+                <br>
+                <button class="button2" type="submit" style="padding-top: 15px;">Next</button>
+                <br>
+                <br>
+                <a href="intro-page.html"><button class="button2" style="padding-top: 15px;"><img src="back_button.png" height="30px" width="30px"></button></a>
+                <br>
+            </form>
+        </div>
+    </body>
+</html>

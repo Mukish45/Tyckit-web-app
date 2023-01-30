@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <style>
+input[type=text]{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+   
+}
+.center {
+    margin: auto;
+    width: 60%;
+    background-image: linear-gradient(to bottom right, rgb(137, 137, 253),rgb(248, 24, 211));
+    padding: 10px;
+    border-radius: 20px;
+    width: 400px;
+}
+.inner{
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+    padding-left: 60px;   
+    border-radius: 20px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    padding-left: 90px;
+    padding-right: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    padding-top: 20px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+.Submit:hover{
+    background-color: fuchsia;
+    color: aliceblue;
+}
+.Submit{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    
+    text-decoration: none;
+    border: none;
+    color: rgb(255, 51, 187);
+    font-size: 12px;
+    margin-top: 10px;
+}
+        </style>
+        <title>
+            Contact Us
+        </title>
+       
+    </head>
+    <body>
+        <div class="center">
+            <h1 class="tt">CONTACT US</h1><hr>
+        <form class="inner">
+            
+            <input type="text" id="mail" name="mail" placeholder="Email"><br/>
+            <br/>
+            <input type="text" id="name" name="name" placeholder="Name"><br/>
+            <br/>
+            <input type="text" id="subject" name="subject" placeholder="Subject"><br/><br/>
+            
+            <input type="text" style="height: 50px;" id="message" name="message" placeholder="Message"><br/><br/>
+           
+            <input type="text" style="height: 50px;" id="query" name="query" placeholder="Query"><br/><br/>
+            <input type="button" class="Submit" value="Submit">
+        </form>
+    </div>
+    </body>
+</html>
